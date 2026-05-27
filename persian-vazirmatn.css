@@ -85,8 +85,6 @@
 :root,
 body {
   --persian-font-family: "Vazirmatn Persian";
-  --font-text: var(--persian-font-family), system-ui, sans-serif;
-  --font-interface: var(--persian-font-family), system-ui, sans-serif;
 }
 
 body,
@@ -112,7 +110,7 @@ body,
 input,
 textarea,
 button {
-  font-family: var(--persian-font-family), system-ui, sans-serif !important;
+  font-family: var(--persian-font-family), var(--font-text, var(--font-interface, system-ui, sans-serif)) !important;
 }
 
 code,
