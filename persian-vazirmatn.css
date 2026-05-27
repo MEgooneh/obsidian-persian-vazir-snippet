@@ -85,6 +85,9 @@
 :root,
 body {
   --persian-font-family: "Vazirmatn Persian";
+  --font-text-override: var(--persian-font-family);
+  --font-interface-override: var(--persian-font-family);
+  --font-print-override: var(--persian-font-family);
 }
 
 body,
@@ -125,8 +128,8 @@ button {
 .workspace-leaf-content[data-type="graph"] .view-content,
 .workspace-leaf-content[data-type="localgraph"],
 .workspace-leaf-content[data-type="localgraph"] .view-content {
-  --font-text: var(--persian-font-family), var(--font-text-theme, var(--font-interface-theme, system-ui, sans-serif));
-  --font-interface: var(--persian-font-family), var(--font-interface-theme, system-ui, sans-serif);
+  --font-text-override: var(--persian-font-family);
+  --font-interface-override: var(--persian-font-family);
 }
 
 code,
