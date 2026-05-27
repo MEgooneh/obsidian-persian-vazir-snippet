@@ -107,10 +107,26 @@ body,
 .metadata-property,
 .workspace-leaf-content,
 .view-content,
+.graph-view,
+.graph-view-container,
+.workspace-leaf-content[data-type="graph"],
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"],
+.workspace-leaf-content[data-type="localgraph"] .view-content,
 input,
 textarea,
 button {
   font-family: var(--persian-font-family), var(--font-text, var(--font-interface, system-ui, sans-serif)) !important;
+}
+
+.graph-view,
+.graph-view-container,
+.workspace-leaf-content[data-type="graph"],
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"],
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  --font-text: var(--persian-font-family), var(--font-text-theme, var(--font-interface-theme, system-ui, sans-serif));
+  --font-interface: var(--persian-font-family), var(--font-interface-theme, system-ui, sans-serif);
 }
 
 code,
