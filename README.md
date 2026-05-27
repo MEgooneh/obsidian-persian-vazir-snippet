@@ -2,7 +2,7 @@
 
 A minimal Obsidian CSS snippet that makes Persian text in Obsidian use the Vazir/Vazirmatn font.
 
-The font is embedded in the CSS file, so it works locally without third-party font URLs.
+The font is embedded in the CSS file, so users do not need to install Vazirmatn on their system and no third-party font URL is used.
 
 ## Install
 
@@ -20,8 +20,7 @@ YourVault/.obsidian/snippets/persian-vazirmatn.css
 
 - Obsidian CSS snippets: https://obsidian.md/help/snippets
 - Vazirmatn, the current Vazir font project by Saber Rastikerdar: https://github.com/rastikerdar/vazirmatn
-- Original Vazir font repository by Saber Rastikerdar: https://github.com/rastikerdar/vazir-font
 
 ## License
 
-The embedded Vazirmatn font is licensed under the SIL Open Font License 1.1. See `OFL.txt`.
+The embedded Vazirmatn font is licensed under the SIL Open Font License 1.1, so `OFL.txt` is included.
